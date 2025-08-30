@@ -1,0 +1,65 @@
+.content {
+    flex: 1;
+    padding: 20px;
+    background-color: #f5f5f5;
+}
+.div-sagbar-min .icon{
+    text-align: right;
+}
+.page-content {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Sagbar uslublari */
+.background-sagbar {
+    color: black;
+    max-width: 130px;
+    width: 100%;
+    flex-wrap: wrap;
+    min-height: 100vh;
+    box-shadow: 9px 0px 5px -5px rgba(34, 60, 80, 0.16);
+
+}
+
+.div-sagbar-max {
+    padding: 20px 0;
+}
+
+.div-sagbar-min ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.div-sagbar-min li {
+    margin-bottom: 15px;
+}
+
+.nav-link {
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    color: black;
+    text-decoration: none;
+    text-align: center;
+    flex-wrap: wrap;
+    transition: background-color 0.3s;
+}
+
+.nav-link:hover {
+    background-color: white;
+}
+
+.nav-link span:first-child {
+    margin-right: 10px;
+}
+
+.icon {
+    transform: translateX(27px);
+}
+.ish-haqi{
+    transform: translateX(20px);
+}

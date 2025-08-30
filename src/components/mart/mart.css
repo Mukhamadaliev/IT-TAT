@@ -1,0 +1,261 @@
+/* mart.css */
+.mart-page-container {
+  padding: 20px;
+  background-color: #f0f2f5;
+  font-family: Arial, sans-serif;
+  margin-left: 135px;
+  margin-top: -737.5px;
+}
+
+.mart-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.mart-header h1 {
+  font-size: 24px;
+  color: #333;
+  margin: 0;
+}
+
+.mart-header p {
+  color: #666;
+  margin: 0;
+}
+
+.mart-content {
+  display: flex;
+  gap: 20px;
+}
+
+.mart-sidebar {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.course-info-card,
+.members-section,
+.note-card {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+}
+
+.course-info-card p {
+  margin: 5px 0;
+  font-size: 14px;
+  color: #555;
+}
+
+.note-card label {
+  font-weight: bold;
+  display: block;
+  margin-bottom: 10px;
+}
+
+.note-card textarea {
+  width: 100%;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 10px;
+  font-size: 14px;
+}
+
+.members-list-header {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.member-list-items {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.member-item {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0;
+  border-bottom: 1px solid #eee;
+  font-size: 14px;
+  position: relative;
+}
+
+.member-item:last-child {
+  border-bottom: none;
+}
+
+.member-name {
+  flex-grow: 1;
+}
+
+.member-phone {
+  color: #777;
+}
+
+.member-options {
+  color: #aaa;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.mart-main-content {
+  flex-grow: 1;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+}
+
+.tabs {
+  display: flex;
+  border-bottom: 1px solid #ddd;
+  margin-bottom: 20px;
+}
+
+.tab-button {
+  background: none;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 16px;
+  color: #555;
+  border-bottom: 2px solid transparent;
+  transition: all 0.3s ease;
+}
+
+.tab-button.active {
+  color: #007bff;
+  border-bottom-color: #007bff;
+}
+
+.attendance-container {
+  padding: 10px;
+}
+
+.attendance-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.section-title {
+  font-size: 20px;
+  color: #333;
+}
+
+.date-navigation {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.date-navigation button {
+  background-color: #f0f0f0;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.attendance-table-wrapper {
+  overflow-x: auto;
+}
+
+.attendance-table {
+  width: 100%;
+  border-collapse: collapse;
+  white-space: nowrap;
+}
+
+.attendance-table th,
+.attendance-table td {
+  padding: 8px;
+  text-align: center;
+  border: 1px solid #eee;
+}
+
+.attendance-table th {
+  background-color: #f9f9f9;
+  font-weight: bold;
+}
+
+.attendance-button {
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.attendance-button.was {
+  background-color: #c9f7e5;
+  color: #17b38a;
+}
+
+.attendance-button.not {
+  background-color: #ffcccc;
+  color: #e60000;
+}
+
+.add-student-button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.add-student-button:hover {
+  background-color: #0056b3;
+}
+
+.member-info-container {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.paid-status {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.paid-status.paid {
+  background-color: #17b38a;
+}
+
+.paid-status.not-paid {
+  background-color: #e60000;
+}
+
+.payment-modal {
+  position: absolute;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 15px;
+  border-radius: 8px;
+  z-index: 1000;
+  top: 50%;
+  left: 100%;
+  transform: translate(15px, -50%);
+  min-width: 200px;
+  font-size: 14px;
+}
+
+.payment-modal p {
+  margin: 5px 0;
+}
