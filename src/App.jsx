@@ -67,11 +67,10 @@ const App = () => {
           <Sagbar />
           <div className="content">
             <Routes>
-              {/* Har bir guruh uchun alohida yo'nalish */}
+              <Route path="/" element={<Dekabr />} />
               <Route path="/dekabr" element={<Dekabr />} />
               <Route path="/fevral" element={<Fevral />} />
               <Route path="/mart" element={<Mart />} />
-              {/* Yangi Ish haqi sahifasi uchun yo'nalish */}
               <Route
                 path="/ishhaqi"
                 element={
